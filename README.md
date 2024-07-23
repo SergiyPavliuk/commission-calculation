@@ -26,8 +26,9 @@
 3. Install dependencies:
    ```bash
    npm install   
-4. To run the application with the provided input file, use please the following command:
+4. Add .env file with "API_HOST=https://your-api-site.com"
+5. To run the application with the provided input file, please use the following command:
    ```bash
    node src/index.js input.json
    
-This will read the transactions from input.json, calculate the commissions, and write the results to output.json.
+This will read the transactions from input.json, calculate the commissions, and write the results in the terminal.
